@@ -1,0 +1,163 @@
+:root{
+    --cor-primaria: #ffffff;
+    --cor-secundaria: #A7FD2A; 
+    --cor-de-botao-vermelho: #2b97fa;
+    --cor-de-fundo: #393939;
+    --fonte-principal: 'inter'
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*PRIMEIRA TELA*/
+.principal{
+    background-image: url("/img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.titulo__principal{
+    color: var(--cor-primaria);
+    font-size: 25px;  
+    font-weight: 700;
+}
+
+.container__botao{
+    background-color: var(--cor-de-botao-vermelho);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.botao__secundario {
+    background-color: transparent;
+    border: 2px solid var(--cor-de-botao-vermelho);
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--cor-primaria);
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.container__imagem {
+    margin: 32px 0 32px 0;
+}
+
+/*SEGUNDA PAGINA DO PROJETO*/
+
+.container__titulo {
+    color: var(--cor-primaria);
+    font-weight: 700;
+    align-items: center;
+    font-size: 48px;
+    margin-top: 0.1em;
+}
+
+.container__texto {
+    color: var(--cor-primaria);
+    margin-top: 1em;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.imagem__secundario{
+    align-items: center;
+}
+
+.secundaria {
+    align-items: center;
+    margin: 0 10em;
+}
+
+/*TERCEIRA PAGINA DO PROJETO*/
+
+.container__botao__tres {
+   /* margin-right: 30em;*/
+    /*text-align: center;*/
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao {
+    padding: 2em;
+}
+
+/*QUARTA PAGINA DO PROJETO*/
+
+.dispositivos__titulo{
+    color: var(--cor-primaria); 
+    font-size: 48px;
+}
+
+.dispositivos__principal {
+    text-align: center;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    margin: 5em 0;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.lista__item {
+    color: var(--cor-primaria);  
+    font-size: 22px;
+    margin-top: 16px;
+}
+
+.container__imagem_final{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #c2ff05;
+   }
+
+.final_contato{
+    display: flex;
+    justify-content: center;
+    color: var(--cor-de-fundo);
+    margin-left: 5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-decoration: none;
+}
+
+.imagem_redesocial{
+    padding: 15px;
+}
+
+/* FOOTER */
+.rodape{
+	text-align: center;
+	background-color: #ff0076;
+	padding: 8px;
+	color: #fff;
+}
+
